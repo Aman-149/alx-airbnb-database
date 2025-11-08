@@ -16,3 +16,12 @@ Files:
 - `optimization_report.md`
 - `partitioning.sql`
 - `partition_performance.md`
+- `performance_monitoring.md`
+- `schema.sql` (copy of main schema for convenience)
+- `seed.sql`
+
+Run order:
+1. `schema.sql`
+2. `seed.sql`
+3. Run the query files and analyze with `EXPLAIN` / `EXPLAIN ANALYZE`.
+
